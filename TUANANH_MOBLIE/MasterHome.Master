@@ -1,0 +1,183 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterHome.master.cs" Inherits="BAN_HANG.MasterHome" %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>   </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+    <link href="css/1.css" rel="stylesheet" />
+    <script src="js/1.js"></script>
+ 	
+	<link rel="stylesheet" href="vendor/bootstrap.css">
+	<link rel="stylesheet" href="vendor/font-awesome.css">
+   <
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body class="home">
+		<div class="thanhcc text-xs-center text-sm-right wow bounceInDown">
+			<div class="container">
+				<div class="row">
+
+            <div class="col-sm-6 ">
+                <div class="float-sm-left text-xs-center text-sm-left">
+                  <input type="text" class="form-control tim" placeholder="Tìm kiếm">
+                </div>  
+              </div>
+
+					<div class="col-sm-6">
+						<a href="#" class="cctop">
+							<i class="fa fa-sign-in"></i>
+							Đăng nhâp/ Đăng ký
+						</a>
+						
+						<a href="#" class="cctop">
+							<i class="fa fa-shopping-cart"></i>
+							Giỏ hàng
+						</a>
+						
+
+					</div>
+					
+				</div>
+			</div>
+		</div>  <!-- HẾT THANH CÔNG CỤ -->
+
+		<div class="menutop wow bounceInUp">
+ 	        <nav class="navbar navbar-light ">
+ 	          <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+ 	           
+ 	          </button>
+ 	          <div class="collapse navbar-toggleable-md" id="exCollapsingNavbar2">
+ 	            <a class="navbar-brand" href="home.aspx"><img src="/images/logo.jpg" alt="LOGO Project 1"></a>
+ 	            <ul class="nav navbar-nav">
+ 	              <li class="nav-item active">
+ 	                <a class="nav-link" href="home.aspx">Trang chủ  </a>
+ 	              </li>
+ 	              <li class="nav-item">
+ 	                <a class="nav-link" href="#"><i class="fa fa-mobile fa-" aria-hidden="true"></i> Nhà sản xuất </a>
+ 	                <ul>
+ 	                	<li><a href="#"> SamSung</a></li>
+ 	                	<li><a href="#"> Aplle</a></li>
+                     <li><a href="#"> Xiaomi</a></li>
+                     <li><a href="#"> Huawei</a></li>
+                     <li><a href="#"> Oppo </a></li>
+ 	                </ul>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fa fa-headphones" aria-hidden="true"></i> Phụ kiện</a>
+                     <ul>
+                      <li><a href="#"> Tai nghe</a></li>
+                      <li><a href="#"> Cáp sạc, cóc sạc</a></li>
+                      <li><a href="#"> Sạc dự phòng</a></li>
+                    </ul>
+                  </li>
+ 	              <li class="nav-item">
+ 	                <a class="nav-link" href="#"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Tin tức</a>
+ 	                <ul>
+ 	                	<li><a href="#"> Tin khuyến mãi</a></li>
+ 	                	<li><a href="#"> Tin công nghệ</a></li>
+ 	                	
+ 	                </ul>
+
+ 	              </li>
+ 	              <li class="nav-item">
+ 	                <a class="nav-link" href="#"><i class="fa fa-phone" aria-hidden="true"></i> Liên hệ</a>
+ 	                 <ul>
+ 	                	<li><a href="#"> Chăm sóc khách hàng</a></li>
+ 	                	<li><a href="#"> Liên hệ sữa chữa</a></li>
+ 	                	<li><a href="#"> Trợ giúp trực tuyến</a></li>
+ 	                </ul>
+ 	              </li>
+ 	            </ul>
+ 	          </div>
+ 	        </nav>
+ 	     </div>   <!-- END MENUTOP -->
+
+    
+   
+
+                        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+                        </asp:ContentPlaceHolder>
+                    
+
+
+
+    <div class="nhanemail  wow fadeInDownBig">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-10 push-xs-1 text-xs-center">
+          <h2>Nhận thông báo khuyến mãi</h2>
+          <p>Chúng tôi sẽ gửi thông báo khuyến mãi mới nhất cho bạn thông qua email!</p>
+          <div class="form">
+            <input type="text" class="form-control nhanmail" placeholder="Điền email của bạn">
+            <input type="submit" class="form-control" value="GỬI">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  <!-- HET NHAN TIN EMAIL -->
+    
+    <footer class="foot  wow fadeInUpBig">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 cot1">
+            <h3 class="tdfoot text-xs-center text-sm-left">TUẤN ANH MOBLIE</h3>
+            <div class="row">
+              <div class="col-xs-6">
+                <ul>
+                  <li><a href="#">TRANG CHỦ</a></li>
+                  <li><a href="#">SẢN PHẨM</a></li>
+                  <li><a href="#">PHỤ KIÊN</a></li>
+                  
+                  
+                </ul>
+              </div>
+              <div class="col-xs-6">
+                <ul>
+                  <li><a href="#">KHUYẾN MÃI</a></li>
+                  <li><a href="#">TƯ VẤN</a></li>
+                  <li><a href="#">HỖ TRỢ</a></li>  
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 push-sm-1 cot2">
+            <div class="logo text-xs-center">
+              <h2>TUẤN ANH</h2>
+            </div>
+            <div class="mangxh">
+              <ul>
+                <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              </ul>  					
+            </div>
+            <div class="thethanhtoan">
+              <ul>
+                <li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
+                <li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
+                <li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
+                <li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
+              </ul>
+            </div>
+            <div class="copyright">
+              Copyrights <i class="fa fa-copyright"></i> 2019 TUANANH. All Rights Reserved
+            </div>
+          </div>
+          <div class="col-sm-3 push-sm-1 cot3">
+            <div class="bando">
+              <h3 class="tdfoot text-xs-center text-sm-left">Địa chỉ</h3>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.120857988162!2d108.20519251531947!3d16.059216988887034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219b150aed6f9%3A0x605db61a371e4a28!2zMjU0IE5ndXnhu4VuIFbEg24gTGluaCwgVGjhuqFjIEdpw6FuLCBUaGFuaCBLaMOqLCDEkMOgIE7hurVuZyA1NTAwMDAsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1572954160992!5m2!1svi!2s" width="200" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+              <p>254 Nguyễn Văn Linh, Thanh khê <br>Đà Nẵng.</p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+    </body>
+</html>

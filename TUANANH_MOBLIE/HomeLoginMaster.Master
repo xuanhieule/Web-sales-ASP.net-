@@ -1,0 +1,418 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomeLoginMaster.master.cs" Inherits="BAN_HANG.HomeLoginMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+     <title>Thegioididong.com - Siêu thị điện thoại, Tablet, Laptop, Phụ kiện chính hãng</title>
+    <meta name="keywords" content="Thế giới di động, Thegioididong, điện thoại di động, dtdd, smartphone, tablet, máy tính bảng, Laptop, máy tính xách tay, phụ kiện điện thoại, tin công nghệ" />
+    <meta name="description" content="Hệ thống bán lẻ điện thoại di động, smartphone, máy tính bảng, tablet, laptop, phụ kiện chính hãng mới nhất, giá tốt, dịch vụ khách hàng được yêu thích nhất VN" />
+    <meta property="og:title" content="Thegioididong.com - Siêu thị điện thoại, Tablet, Laptop, Phụ kiện chính hãng" />
+    <meta property="og:description" content="Hệ thống bán lẻ điện thoại di động, smartphone, máy tính bảng, tablet, laptop, phụ kiện chính hãng mới nhất, giá tốt, dịch vụ khách hàng được yêu thích nhất VN" />
+    <meta content="INDEX,FOLLOW" name="robots" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="copyright" content="Công ty Cổ phần Thế Giới Di Động" />
+    <meta name="author" content="Công ty Cổ phần Thế Giới Di Động" />
+    <meta http-equiv="audience" content="General" />
+    <meta name="resource-type" content="Document" />
+    <meta name="distribution" content="Global" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="GENERATOR" content="Công ty Cổ phần Thế Giới Di Động" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta property="og:site_name" content="Thegioididong.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta property="fb:pages" content="214993791879039" />
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="https://cdn.tgdd.vn/">
+    <link href="css/Home.css" rel="stylesheet" />
+    <script src="js/Homet.js"></script>
+    <style type="text/css">
+        .auto-style1 {
+            
+            width: 1199px;
+        }
+    </style>
+</head>
+<body class="">
+
+    <section>
+
+        <aside class="homebanner">
+            <div id="sync1">
+                <div class="item">
+                    <a aria-label='slide' href="https://www.thegioididong.com/dtdd/samsung-galaxy-a50s" onclick="jQuery.ajax({ url: 'https://www.thegioididong.com/bannertracking?bid=30171&r='+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="https://cdn.tgdd.vn/2019/09/banner/800-300-800x300-(3).png" alt="A50s" width="800" height="300"></a>
+                </div>
+                <div class="item">
+                    <a aria-label='slide' href="https://www.thegioididong.com/tin-tuc/tgdd-khai-truong-them-5-shop-laptop-online-may-ngon-uu-dai-khung-1186910" onclick="jQuery.ajax({ url: 'https://www.thegioididong.com/bannertracking?bid=30478&r='+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="https://cdn.tgdd.vn/2019/09/banner/800-300-800x300-(2).png" alt="26 Trung Tâm Laptop[break]Giảm Đến 30%" width="800" height="300"></a>
+                </div>
+                <div class="item">
+                    <a aria-label='slide' href="https://www.thegioididong.com/apple#iphone" onclick="jQuery.ajax({ url: 'https://www.thegioididong.com/bannertracking?bid=30521&r='+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="https://cdn.tgdd.vn/2019/09/banner/800-300-800x300-(4).png" alt="iphone" width="800" height="300"></a>
+                </div>
+                <div class="item">
+                    <a aria-label='slide' href="https://www.thegioididong.com/dtdd/oppo-a9" onclick="jQuery.ajax({ url: 'https://www.thegioididong.com/bannertracking?bid=30447&r='+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="https://cdn.tgdd.vn/2019/09/banner/oppo-A9-800-300-800x300.png" alt="OPPO A9" width="800" height="300"></a>
+                </div>
+                <div class="item">
+                    <a aria-label='slide' href="https://www.thegioididong.com/dtdd/huawei-nova-3i-trang" onclick="jQuery.ajax({ url: 'https://www.thegioididong.com/bannertracking?bid=30510&r='+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="https://cdn.tgdd.vn/2019/09/banner/huawei-3i-white-800-300-800x300.png" alt="Nova 3i" width="800" height="300"></a>
+                </div>
+                <div class="item">
+                    <a aria-label='slide' href="https://www.thegioididong.com/tin-tuc/thu-cu-doi-moi-sieu-tiet-kiem-len-doi-smartphone-ngay-hom-nay--1179813" onclick="jQuery.ajax({ url: 'https://www.thegioididong.com/bannertracking?bid=30452&r='+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="https://cdn.tgdd.vn/2019/09/banner/thu-cu-note10-800-300-800x300.png" alt="Thu Cũ Đổi Mới[break]Galaxy Note 10 | 10+" width="800" height="300"></a>
+                </div>
+                <div class="item">
+                    <a aria-label='slide' href="https://www.thegioididong.com/khuyen-mai-soc/dong-ho-gia-soc" onclick="jQuery.ajax({ url: 'https://www.thegioididong.com/bannertracking?bid=30491&r='+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="https://cdn.tgdd.vn/2019/09/banner/DH-Thong-minh-thoi-trang-hotsale-800-300-800x300.png" alt="Đồng Hồ Giá Sốc[break]Giảm Đến 1 Triệu" width="800" height="300"></a>
+                </div>
+                <div class="item">
+                    <a aria-label='slide' href="https://www.thegioididong.com/phu-kien" onclick="jQuery.ajax({ url: 'https://www.thegioididong.com/bannertracking?bid=29666&r='+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="https://cdn.tgdd.vn/2019/08/banner/Phu-kien-online--800-300-800x300.png" alt="phu kien online" width="800" height="300"></a>
+                </div>
+
+            </div>
+            <div id="sync2">
+                <div class="item">
+                    <h3>Đặt Trước Galaxy A50s<br />Tặng Quà Sành Điệu</h3>
+                    <i class="arrowbar"></i>
+                </div>
+                <div class="item">
+                    <i class="arrowbarleft"></i>
+                    <h3>26 Trung Tâm Laptop<br />Giảm Đến 30%</h3>
+                    <i class="arrowbar"></i>
+                </div>
+                <div class="item">
+                    <i class="arrowbarleft"></i>
+                    <h3>iPhone Giá Sốc Online<br />Giảm Đến 2 Triệu</h3>
+                    <i class="arrowbar"></i>
+                </div>
+                <div class="item">
+                    <i class="arrowbarleft"></i>
+                    <h3>OPPO A9 8GB - 128GB<br />Đặt Trước Từ 12-27/9</h3>
+                    <i class="arrowbar"></i>
+                </div>
+                <div class="item">
+                    <i class="arrowbarleft"></i>
+                    <h3>Huawei Nova 3i Trắng<br />Giảm Sốc 1 Triệu</h3>
+                    <i class="arrowbar"></i>
+                </div>
+                <div class="item">
+                    <i class="arrowbarleft"></i>
+                    <h3>Thu Cũ Đổi Mới<br />Galaxy Note 10 | 10+</h3>
+                    <i class="arrowbar"></i>
+                </div>
+                <div class="item">
+                    <i class="arrowbarleft"></i>
+                    <h3>Đồng Hồ Giá Sốc<br />Giảm Đến 1 Triệu</h3>
+                    <i class="arrowbar"></i>
+                </div>
+                <div class="item">
+                    <i class="arrowbarleft"></i>
+                    <h3>Phụ Kiện Online<br />Giảm Sốc 49%</h3>
+                </div>
+            </div>
+        </aside>
+
+
+        <aside class="homenews">
+            <figure>
+                <h2><a href="/tin-tuc">Tin công nghệ</a></h2>
+                <b></b>
+            </figure>
+            <ul>
+                <li>
+                    <a href="/tin-tuc/tren-tay-danh-gia-nhanh-nokia-6-2-1195463">
+                        <img width="100" height="70" src="https://cdn.tgdd.vn/Files/2019/09/06/1195463/tren-tay-nokia-6-22_800x450-100x100.jpg" alt="Tr&#234;n tay &amp; đ&#225;nh gi&#225; nhanh Nokia 6.2: Gi&#225; b&#236;nh d&#226;n nhưng nhiều t&#237;nh năng &#39;ngon&#39;!">
+                        <h3>Tr&#234;n tay &amp; đ&#225;nh gi&#225; nhanh Nokia 6.2: Gi&#225; b&#236;nh d&#226;n nhưng nhiều t&#237;nh năng &#39;ngon&#39;!</h3>
+                        <span>1 giờ trước</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="twobanner">
+                <a aria-label='slide' href="https://www.thegioididong.com/dtdd/samsung-galaxy-a50s#game" onclick="jQuery.ajax({ url: 'https://www.thegioididong.com/bannertracking?bid=30323&r='+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="https://cdn.tgdd.vn/2019/08/banner/398-110-398x110-(5).png" alt="Game" width="398" height="110"></a>
+                <a aria-label='slide' href="https://www.thegioididong.com/apple#ipad" onclick="jQuery.ajax({ url: 'https://www.thegioididong.com/bannertracking?bid=30371&r='+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="https://cdn.tgdd.vn/2019/09/banner/398-110-398x110.png" alt="ipad" width="398" height="110"></a>
+            </div>
+
+        </aside>
+
+        <div class="clr"></div>
+        <div class="promotebanner b1">
+            <a aria-label='slide' href="https://www.thegioididong.com/khuyen-mai-soc/hotsale-online" onclick="jQuery.ajax({ url: 'https://www.thegioididong.com/bannertracking?bid=30488&r='+ (new Date).getTime(), async: true, cache: false });"><img style="cursor:pointer" src="https://cdn.tgdd.vn/2019/09/banner/Ngay-vang-online-1200-75(1)-1200x75.png" alt="hotsale" width="1200" height="75"></a>
+        </div>
+
+
+        <div class="">
+
+
+            <div class="navigat 42">
+                <h2>Điện thoại nổi bật nhất</h2>
+                <div class="viewallcat">
+
+                    <a href="https://www.thegioididong.com/khuyen-mai-soc/hotsale-online">Giảm sốc Online</a>
+                    <a href="https://www.thegioididong.com/dtdd-apple-iphone">iPhone</a>
+                    <a href="https://www.thegioididong.com/dtdd/iphone-xs">iPhone Xs</a>
+                    <a href="https://www.thegioididong.com/dtdd/iphone-xs-max">iPhone Xs Max</a>
+                    <a href="https://www.thegioididong.com/dtdd-samsung">Điện thoại Samsung</a>
+                    
+                </div>
+            </div>
+            <!-- home products -->
+            <ul class="homeproduct ">
+                <li class="feature" data-id="206176">
+
+                    <a href="/dtdd/samsung-galaxy-note-10-plus">
+                        <img width="600" height="275" data-original="https://cdn.tgdd.vn/Products/Images/42/206176/Feature/samsung-galaxy-note-10-plus-ft-2-1.jpg" class="lazy" alt="Samsung Galaxy Note 10+" />
+                        <h3>Samsung Galaxy Note 10+</h3>
+                        <div class="price"><strong>26.990.000₫</strong></div>
+                        <label class="installment">Trả góp 0%</label>
+                    </a>
+
+                </li>
+                <li data-id="200330">
+                    <!--#region Ngành hàng chính -->
+                    <a href="/dtdd/oppo-a5s">
+                        <img width="180" height="180" data-original="https://cdn.tgdd.vn/Products/Images/42/200330/oppo-a5s-red-400x400.jpg" class="lazy" alt="OPPO A5s" />
+                        <h3>OPPO A5s</h3>
+                        <div class="price"><strong>3.690.000₫</strong></div>
+
+                        <div class="promo noimage">
+                            <p> Mua đồng hồ thời trang, mắt k&#237;nh giảm ngay 40% (kh&#244;ng k&#232;m KM kh&#225;c) và <b>1 K.mãi</b> khác</p>
+                        </div>
+                        <label class="installment">Trả góp 0%</label>
+                    </a>
+                    <!--#endregion -->
+
+                </li>
+                <li data-id="209621">
+                    <!--#region Ngành hàng chính -->
+                    <a href="/dtdd/xiaomi-redmi-note-7-64gb-trang">
+                        <img width="180" height="180" data-original="https://cdn.tgdd.vn/Products/Images/42/209621/xiaomi-redmi-note-7-64gb-trang-1-400x400.jpg" class="lazy" alt="Xiaomi Redmi Note 7 64GB Trắng" />
+                        <h3>Xiaomi Redmi Note 7 64GB Trắng</h3>
+                        <div class="price">
+                            <strong>4.490.000₫</strong>
+                            <span>4.990.000₫</span>
+                        </div>
+
+                        <div class="promo noimage">
+                            <p> Mua đồng hồ thời trang, mắt k&#237;nh giảm ngay 40% (kh&#244;ng k&#232;m KM kh&#225;c) và <b>1 K.mãi</b> khác</p>
+                        </div>
+                        <label class="discount">GIẢM 500.000₫</label>
+                    </a>
+                    <!--#endregion -->
+
+                </li>
+                <li data-id="78124">
+                    <!--#region Ngành hàng chính -->
+                    <a href="/dtdd/iphone-7-plus">
+                        <img width="180" height="180" data-original="https://cdn.tgdd.vn/Products/Images/42/78124/iphone-7-plus-32gb-gold-400x400.jpg" class="lazy" alt="iPhone 7 Plus 32GB" />
+                        <h3>iPhone 7 Plus 32GB</h3>
+                        <div class="price">
+                            <strong>12.490.000₫</strong>
+                            <span>13.990.000₫</span>
+                        </div>
+
+                        <div class="promo noimage">
+                            <p> Mua đồng hồ thời trang, mắt k&#237;nh giảm ngay 40% (kh&#244;ng k&#232;m KM kh&#225;c) và <b>1 K.mãi</b> khác</p>
+                        </div>
+                        <label class="discount">GIẢM 1.500.000₫</label>
+                    </a>
+                    <!--#endregion -->
+
+                </li>
+                <li class="feature" data-id="200438">
+
+                    <a href="/dtdd/oppo-reno">
+                        <img width="600" height="275" data-original="https://cdn.tgdd.vn/Products/Images/42/200438/Feature/oppo-reno-ft-6.jpg" class="lazy" alt="OPPO Reno" />
+                        <h3>OPPO Reno</h3>
+                        <div class="price">
+                            <strong>11.990.000₫</strong>
+                            <span>12.990.000₫</span>
+                        </div>
+                        <label class="discount">GIẢM 1.000.000₫</label>
+                    </a>
+
+                </li>
+                <li data-id="205773">
+                    <!--#region Ngành hàng chính -->
+                    <a href="/dtdd/samsung-galaxy-a10s">
+                        <img width="180" height="180" data-original="https://cdn.tgdd.vn/Products/Images/42/205773/samsung-galaxy-a10s-green-400x400.jpg" class="lazy" alt="Samsung Galaxy A10s" />
+                        <h3>Samsung Galaxy A10s</h3>
+                        <div class="price">
+                            <strong>3.490.000₫</strong>
+                            <span>3.690.000₫</span>
+                        </div>
+
+                        <div class="promo noimage">
+                            <p> Mua đồng hồ thời trang, mắt k&#237;nh giảm ngay 40% (kh&#244;ng k&#232;m KM kh&#225;c) và <b>1 K.mãi</b> khác</p>
+                        </div>
+                        <label class="discount">GIẢM 200.000₫</label>
+                    </a>
+                    <!--#endregion -->
+
+                </li>
+                <li data-id="197570">
+                    <!--#region Ngành hàng chính -->
+                    <a href="/dtdd/huawei-y7-pro-2019-do">
+                        <img width="180" height="180" data-original="https://cdn.tgdd.vn/Products/Images/42/197570/huawei-y7-pro-2019-do-400x400.jpg" class="lazy" alt="Huawei Y7 Pro (2019) m&#224;u đỏ" />
+                        <h3>Huawei Y7 Pro (2019) m&#224;u đỏ</h3>
+                        <div class="price"><strong>2.590.000₫</strong></div>
+
+                        <div class="promo noimage">
+                            <p> Mua đồng hồ thời trang, mắt k&#237;nh giảm ngay 40% (kh&#244;ng k&#232;m KM kh&#225;c) và <b>1 K.mãi</b> khác</p>
+                        </div>
+                    </a>
+                    <!--#endregion -->
+
+                </li>
+                <li data-id="199083">
+                    <!--#region Ngành hàng chính -->
+                    <a href="/dtdd/vivo-y91c">
+                        <img width="180" height="180" data-original="https://cdn.tgdd.vn/Products/Images/42/199083/vivo-y91c-400x400.jpg" class="lazy" alt="Vivo Y91C" />
+                        <h3>Vivo Y91C</h3>
+                        <div class="price"><strong>2.590.000₫</strong></div>
+
+                        <div class="promo noimage">
+                            <p> Mua đồng hồ thời trang, mắt k&#237;nh giảm ngay 40% (kh&#244;ng k&#232;m KM kh&#225;c) và <b>1 K.mãi</b> khác</p>
+                        </div>
+                    </a>
+                    <!--#endregion -->
+
+                </li>
+            </ul>
+
+            <!-- home products -->
+            </ul>
+
+            <div class="navigat 42">
+                <h2>Tất cả điện thoại </h2>
+                <!--contenHolder-->
+                <form id="form1" runat="server">
+                    <div class="auto-style1">
+                        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </form>
+                <!--end contentHolder-->
+
+            </div>
+
+
+
+</section>
+
+
+
+    <header>
+        <div class="wrap-main /">
+            <a class="logo " title="Về trang chủ Thegioididong.com" href="/" aria-label="logo">
+                <i class="icontgdd-logo"></i>
+            </a>
+            <form id="search-site" action="/tim-kiem" method="get" autocomplete="off">
+                <input class="topinput" id="search-keyword" name="key" type="text" aria-label="Bạn tìm gì..." placeholder="Bạn tìm gì..." autocomplete="off" onkeyup="SuggestSearch(event,this, 0);" maxlength="50" />
+                <button class="btntop" type="submit" aria-label="tìm kiếm"><i class="icontgdd-topsearch"></i></button>
+            </form>
+            <nav>
+                <a href="/dtdd" class="mobile" title="Điện thoại di động, smartphone">
+                    <i class="icontgdd-mobile"></i>Điện thoại
+                </a>
+                <a href="/may-tinh-bang" class="tablet" title="Máy tính bảng, tablet">
+                    <i class="icontgdd-tablet"></i>Tablet
+                </a>
+                <a href="/laptop" class="laptop" title="Máy tính xách tay, Laptop">
+                    <i class="icontgdd-laptop"></i>Laptop
+                </a>
+                <a href="/phu-kien" class="phukien" title="Phụ kiện điện thoại di động, phụ kiện tablet, phụ kiện lapto">
+                    <i class="icontgdd-phukien"></i>Phụ kiện
+                </a>
+                <a href="/dong-ho-mat-kinh" class="smartwatch" title="Đồng hồ, mắt kính">
+                    <i class="icontgdd-watch"></i>Rút thăm 
+                </a>
+                <a href="/may-doi-tra" class="maydoitra" title="Máy cũ giá rẻ, máy đổi trả thegioididong">
+                    <i class="icontgdd-maydoitra"></i><span>Máy</span>Cũ giá rẻ
+                </a>
+                <a href="/tin-tuc" class="news" title="Tin công nghệ">
+                    <i class="icontgdd-news"></i><span>Tin</span>Công Nghệ
+                </a>
+                <a href="/hoi-dap" class="ask" title="Hỏi đáp">
+                    <i class="icontgdd-ask"></i>Hỏi đáp
+                </a>
+                <a href="GioHang.aspx" class="cardsim">
+                    Giỏ Hàng<br />
+                    
+                </a>
+                <a href="DangNhap.aspx" class="utility">
+                    Xin chào<br />
+                    
+                    
+                </a>
+            </nav>
+        </div>
+        <div class="clr"></div>
+    </header>
+
+    <footer>
+        <div class="rowfoot1">
+            <ul class="colfoot">
+                <li><a href="/tra-gop" title="Hướng dẫn mua trả góp">Tìm hiểu về mua trả góp</a></li>
+                <li><a href="/bao-hanh" title="Tìm trung tâm bảo hành">Chính sách bảo hành</a></li>
+                <li><a href="/chinh-sach-bao-hanh-san-pham" title="Chính sách đổi trả">Chính sách đổi trả</a></li>
+                <li><a href="/giao-hang" title="Giao hàng & Thanh toán">Giao hàng & Thanh toán</a></li>
+
+                <li class="showmore"><a href="javascript:ShowMoreFooterSupportLink()" title="Xem thêm">Xem thêm</a></li>
+                <li class="hidden"><a href="/huong-dan-mua-hang" title="Hướng dẫn mua online">Hướng dẫn mua online</a></li>
+                <li class="hidden"><a href="/b2b" title="Mua hàng doanh nghiệp">Bán hàng doanh nghiệp</a></li>
+                <li class="hidden"><a href="/phieu-mua-hang" title="Phiếu mua hàng">Phiếu mua hàng</a></li>
+                <li class="hidden"><a href="//hddt.thegioididong.com" target="_blank" title="In hóa đơn điện tử" rel="nofollow noopener">In hóa đơn điện tử</a></li>
+                <li class="hidden"><a href="/tos" title="Quy chế hoạt động">Quy chế hoạt động</a></li>
+                <li class="hidden"><a href="/noi-quy-cua-hang" title="Nội quy cửa hàng">Nội quy cửa hàng</a></li>
+                <li class="hidden"><a href="/chat-luong-phuc-vu" title="Chất lượng phục vụ">Chất lượng phục vụ</a></li>
+                <li class="hidden"><a href="/trao-thuong" title="Thông tin trao thưởng">Thông tin trao thưởng</a></li>
+                <li class="hidden"><a href="/chinh-sach-khui-hop-apple" title="Chính sách khui hộp sản phẩm Apple">Chính sách khui hộp sản phẩm Apple</a></li>
+            </ul>
+            <ul class="colfoot">
+                <li><a href="http://mwg.vn" target="_blank" title="Giới thiệu công ty (mwg.vn)" rel="noopener">Giới thiệu công ty <span>(mwg.vn)</span></a></li>
+                <li><a href="//vieclam.thegioididong.com" target="_blank" title="Tuyển dụng" rel="noopener">Tuyển dụng</a></li>
+                <li><a href="/lien-he" title="Gửi góp ý, khiếu nại">Gửi góp ý, khiếu nại</a></li>
+                <li><a href="/he-thong-sieu-thi-the-gioi-di-dong" title="Tìm siêu thị (1896  shop)">Tìm siêu thị <span>(1896 shop)</span></a></li>
+                <li>
+                    <a class="viewmb" rel="nofollow" href="/?sclient=mobile" title="Xem bản mobile">Xem bản mobile</a>
+                </li>
+            </ul>
+            <ul class="colfoot">
+                <li>
+                    <p>Gọi mua hàng <a href="tel:18001060">1800.1060</a> (7:30 - 22:00)</p>
+                    <p>Gọi khiếu nại &nbsp; <a href="tel:18001062">1800.1062</a> (8:00 - 21:30)</p>
+                    <p>Gọi bảo hành &nbsp; <a href="tel:18001064">1800.1064</a> (8:00 - 21:00)</p>
+                    <p>Kỹ thuật &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="tel:18001763">1800.1763</a> (7:30 - 22:00)</p>
+                    <a target="_blank" rel="nofollow noopener" class="bct" href="http://online.gov.vn/HomePage/CustomWebsiteDisplay.aspx?DocId=20098" aria-label="bộ công thương mwg"><i class="icontgdd-bct"></i></a>
+                    <a href="//www.dmca.com/Protection/Status.aspx?ID=5b62e759-2a0c-4d86-b972-af903bfbc89d&refurl=http://www.thegioididong.com/" title="DMCA.com Protection Status" class="dmca-badge"> <img style="opacity:0.01" src="//images.dmca.com/Badges/dmca-badge-w100-5x1-11.png?ID=5b62e759-2a0c-4d86-b972-af903bfbc89d" alt="DMCA.com Protection Status"></a>
+                </li>
+            </ul>
+            <ul class="colfoot collast">
+                <li>
+                    <a target="_blank" href="https://facebook.com/thegioididongcom" class="linkfb" rel="noopener">
+                        <i class="icontgdd-share1"></i>3.3tr
+                    </a>
+                    <a target="_blank" href="https://www.youtube.com/user/TGDDVideoReviews?sub_confirmation=1" class="linkyt" rel="noopener">
+                        <i class="icontgdd-share3"></i>624.2k
+                    </a>
+                    <div class="group">
+                        <label>Website cùng tập đoàn:</label>
+                        <a href="//www.dienmayxanh.com" target="_blank" rel="noopener" class="dm" aria-label="www.dienmayxanh.com"><i class="iconlogo-dmx"></i></a>
+                        <a href="//www.bachhoaxanh.com" target="_blank" rel="noopener" class="bhx" aria-label="www.bachhoaxanh.com"><i class="iconlogo-bhx"></i></a>
+                        <a href="//www.maiamtgdd.vn" target="_blank" rel="noopener" class="ma" aria-label="www.maiamtgdd.vn"><i class="iconlogo-ma"></i></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="rowfoot2">
+            <p>© 2019. Công ty cổ phần Thế Giới Di Động. GPDKKD: 0303217354 do sở KH & ĐT TP.HCM cấp ngày 02/01/2007. Địa chỉ: 128 Trần Quang Khải, P. Tân Định, Q.1, TP.Hồ Chí Minh. Điện thoại: 18001060. Email: cskh@thegioididong.com. Chịu trách nhiệm nội dung: Trần Nhật Linh. <a href="/tos">Xem chính sách sử dụng web</a></p>
+        </div>
+    </footer>
+    <p id="back-top">
+        <a href="#top" title="Về Đầu Trang"><span></span></a>
+    </p>
+
+    <script defer="defer" async="async" src="https://cdn.tgdd.vn/v2015/Scripts/desktop/V5/home.min.v201909070650.js"></script>
+    
+        
+   
+</body>
+</html>
